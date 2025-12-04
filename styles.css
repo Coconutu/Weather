@@ -1,0 +1,22 @@
+body{
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+
+}
+.innerContainer{
+    width: 300px;
+    height: 500px;
+    border-radius: 2%;
+    background-color: rgb(91,164,210);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
