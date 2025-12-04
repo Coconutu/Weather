@@ -5,23 +5,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather App</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/fontawesome.min.css"
-        integrity="sha512-M5Kq4YVQrjg5c2wsZSn27Dkfm/2ALfxmun0vUE3mPiJyK53hQBHYCVAtvMYEC7ZXmYLg8DVG4tF8gD27WmDbsg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-        
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/styles.css">
 </head>
 
 <body>
-<div class="container">
-<div class="innerContainer">
-    <div>
-        <p style="font-size: large"><i class="fa fa-location-arrow"></i><strong id="location">New York</strong>  </p>
-        
-    </div>
-</div>
+    <div class="container">
+        <div class="innerContainer">
+            <div>
+                <input type="text" id="cityInput" placeholder="Enter city name">
+                <button id="searchBtn" onclick="aflaVremea()"><i class="fa fa-search"></i></button>
+            </div>
+            <div>
+                <p style="font-size:large"><i class="fa fa-location-arrow"></i><strong id="location"> Bucharest</strong>
+                </p>
 
-</div>
+            </div>
+            <div>
+                <p id="date">Thurs 12 June 1993</p>
+            </div>
+            <div>
+                <img id="icon" src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather icons">
+                <p id="description">Description</p>
+            </div>
+            <div>
+                <p id="temperature" style="font-size: xxx-large;">37&#176;C</p>
+            </div>
+        </div>
+
+    </div>
 
     <script src="./script.js"></script>
 </body>
