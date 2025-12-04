@@ -1,9 +1,11 @@
 Weather app using:
 <br>
-HTML
+HTML,
 <BR>
-CSS
+CSS,
 <BR>
-JAVASCRIPT
+JAVASCRIPT,
+<BR>
+<B>USING api.openweathermap.org<B>
 <BR>
 ![alt text](image.png)
